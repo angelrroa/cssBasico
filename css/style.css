@@ -1,0 +1,59 @@
+@import url(variables.css);
+
+body {
+    display: flex;
+    background: var(--colorPrimary);
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    display: flex;
+    background-color: red;
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+}
+
+.box:nth-child(1) {
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.box:nth-child(2) {
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.box:nth-child(3) .subBox {
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.box4{
+    display: flex;
+    background-color: red;
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+    justify-content:space-between;
+}
+
+.subBox {
+    padding: 10px;
+    background-color: blue;
+    height: fit-content;
+}
+
+span {
+    padding: auto;
+    font-size: 5px;
+}
+
