@@ -9,7 +9,7 @@ body {
     align-items: center;
 }
 
-.container {
+.contenedor {
     display: flex;
     justify-content: space-around;
 }
@@ -57,3 +57,77 @@ span {
     font-size: 5px;
 }
 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  dl {
+    margin-top: 20px;
+  }
+  
+  dt {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  dd {
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Flexbox example */
+  .flex-container {
+    display: flex;
+  }
+  
+  .flex-item {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    flex: 1; /* Distribuye el espacio de manera uniforme entre los elementos */
+  }
+  
+  /* CSS Grid example */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas con el mismo ancho */
+    gap: 10px; /* Espacio entre los elementos */
+  }
+  
+  .grid-item {
+    background-color: #28a745;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición para el color de fondo */
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Nuevo color de fondo al pasar el ratón */
+  }
+    
