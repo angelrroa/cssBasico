@@ -501,7 +501,7 @@ body {
 	z-index: -1;
 }
 #sidebar .side-menu li.active::after {
-	content: '';
+	content: '';  
 	position: absolute;
 	width: 40px;
 	height: 40px;
